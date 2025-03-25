@@ -14,22 +14,31 @@
      The official YOLOv5 dataset used for benchmarking and model improvements.
  # Data Preprocessing
  The preprocessing pipeline includes:
+ 
 1. Resizing Images: Original dataset images (2080x3010) resized to 512x512.
+   
 2. Bounding Box Scaling: Adjusting bounding box coordinates to match resized images.
+   
 3. Data Augmentation (Albumentations):
+   
    a. Horizontal Flip
    b. Rotation
    c. Brightness Contrast
    d. Gaussian Noise
    e. Gaussian Blur
 
-4. Splitting Data: Using Group K-Fold Cross-Validation to avoid data leakage.
+6. Splitting Data: Using Group K-Fold Cross-Validation to avoid data leakage.
  
   # Model Training
+  
   Framework: YOLOv5
+  
   Batch Size: 16
+  
   Epochs: 30
+  
   Optimization: Learning rate scheduling
+  
   Loss Tracking: Monitored using loss curves
 
   # Model Evaluation
