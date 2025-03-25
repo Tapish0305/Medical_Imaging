@@ -1,5 +1,5 @@
   # Project Title
-  Identifying medical conditions in X-ray of various thoracic regions through mordern Machine Learning(Algorithim).
+    Identifying medical conditions in X-ray of various thoracic regions through mordern Machine Learning(Algorithim).
   # Dataset Overview
  This project utilizes three datasets for training and evaluation:
  1. Vinbigdata-512-Image-Dataset-
