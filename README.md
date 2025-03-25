@@ -1,7 +1,18 @@
   # Project Title
   Identifying medical conditions in X-ray of various thoracic regions through mordern Machine Learning(Algorithim).
   # Dataset Overview
-  There are 3 dataset used in the project 1st dataset used is Vinbigdata-512-Image-Dataset 2nd one is VinBigData-YOLO-Labels-Dataset and 3rd one is 
-  yolov5-official-v31-dataset. The first dataset "Vinbigdata-512-Image-Dataset" contain the train and test directory. Both of the directory contain 
-  image. The second dataset "VinBigData-YOLO-Labels-Dataset" contain the train and test directory. Both of the directory contain labels. There are 
-  14 medical conditions. The third dataset is official yolov5 dataset
+ This project utilizes three datasets for training and evaluation:
+
+Vinbigdata-512-Image-Dataset
+
+Contains train and test directories, each holding medical images.
+
+VinBigData-YOLO-Labels-Dataset
+
+Contains train and test directories, each holding corresponding YOLO-formatted labels.
+
+Covers 14 medical conditions detected in chest X-rays.
+
+YOLOv5-Official-v31-Dataset
+
+The official YOLOv5 dataset used for benchmarking and model improvements.
