@@ -22,10 +22,15 @@
 3. Data Augmentation (Albumentations):
    
    a. Horizontal Flip
+   
    b. Rotation
+   
    c. Brightness Contrast
+   
    d. Gaussian Noise
+   
    e. Gaussian Blur
+   
 
 6. Splitting Data: Using Group K-Fold Cross-Validation to avoid data leakage.
  
@@ -45,6 +50,8 @@
   Performance is analyzed using:
   
   a. Confusion Matrix
+  
   b. F1 Score
+  
   c. Correlogram
   d. Loss Maps
