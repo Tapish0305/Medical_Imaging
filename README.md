@@ -1,5 +1,5 @@
   # Project Title
- This project focuses on detecting medical conditions from chest X-ray images using YOLOv5. It involves image preprocessing, data augmentation, model training, and performance evaluation to improve detection accuracy in radiology.
+ This project focuses on detecting medical conditions from chest X-ray images using YOLOv5 and YOLOv8. It involves image preprocessing, data augmentation, model training, and performance evaluation to improve detection accuracy in radiology.
   # Dataset Overview
  This project utilizes three datasets for training and evaluation:
  1. Vinbigdata-512-Image-Dataset-
@@ -36,7 +36,7 @@
  
   # Model Training
   
-  Framework: YOLOv5
+  Framework: YOLOv5 and YOLOv8
   
   Batch Size: 16
   
